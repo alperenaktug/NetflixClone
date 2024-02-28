@@ -2,7 +2,7 @@ import Main from "../components/Main";
 import Row from "../components/Row";
 import requests from "../Requests";
 
-function Home() {
+const Home = () => {
   return (
     <>
       <Main />
@@ -13,6 +13,6 @@ function Home() {
       <Row rowID="5" title="Horror" fetchURL={requests.requestHorror} />
     </>
   );
-}
+};
 
 export default Home;
